@@ -3,6 +3,7 @@ package test.synch;
 import test.common.Buffer;
 
 public class Consumer implements Runnable {
+	
 	private Buffer buffer;
 
 	public Consumer(Buffer drop) {
@@ -20,4 +21,5 @@ public class Consumer implements Runnable {
 			}
 		}
 	}
+	
 }
